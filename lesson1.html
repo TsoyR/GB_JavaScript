@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        var Tc = 2;
+        var Tf = (9 / 5) * Tc + 32;
+        alert('Температура по Фаренгейту' + Tf)
+
+        var name = "Василий";
+        var admin = name;
+        console.log(admin)
+
+        10 + 10 + "10";
+
+        10 + "10" + 10;
+
+        10 + 10 + +"10"; 
+
+        10 / -"";
+
+        10 / +"2,5"; 
+        /*
+        1. К 10 прибавляем 10 получаем 20 и склеиваем с 10 получаем 2010
+        2. 10 прибавляем к строке 10 получаем 1010 и еще прибавляем 10 в итоге получаем 101010 
+        3. Складываем 10 и 10 получаем 20 и еще раз 10 с унарным плюсом получаем 30
+        4. 10 делим на -0
+        5. 10 делим на NaN получаем NaN
+
+        */
+        let result = 3 - 4 * 2;
+
+        console.log(result);
+
+    </script>
+    
+</body>
+</html>
